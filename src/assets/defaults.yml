@@ -1,13 +1,13 @@
 ---
 # Default configuration
 
-title: "Dashboard"
-subtitle: "Homer"
+title: "City Tech Dashboard"
+subtitle: "Student ID: 23453523"
 
 header: true
-footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
+footer: false
 
-columns: 3
+columns: 2
 connectivityCheck: true
 
 defaults:
@@ -20,8 +20,51 @@ theme: default
 colors: ~
 
 message: ~
-links: []
-services: []
 
+links:
+  - name: Office 365
+    icon: fab fa-microsoft
+    url: https://www.office.com/
+    target: _blank
+  - name: Outlook
+    icon: fas fa-envelope
+    url: https://outlook.office.com/mail/
+    target: _blank
+
+services:
+  - name: Student Life
+    icon: fas fa-code-branch
+    items:
+      - name: CUNY First
+        icon: fas fa-graduation-cap
+        subtitle: "Student info"
+        tag: "resource"
+        keywords: "self hosted reddit"
+        url: https://cssa.cunyfirst.cuny.edu/
+        target: _blank
+
+      - name: Open Lab
+        icon: fas fa-user-group
+        subtitle: "Social network"
+        tag: "social"
+        url: https://openlab.citytech.cuny.edu/
+        target: _blank
+
+  - name: Academics
+    icon: fas fa-heartbeat
+    items:
+      - name: Navigate 360
+        icon: fas fa-school
+        subtitle: Class Notes
+        tag: "academics"
+        url: https://citytech-cuny.navigate.eab.com/app/
+        target: _blank
+
+      - name: Bright Space
+        icon: fab fa-jenkins
+        subtitle: Class Work
+        tag: "academics"
+        url: https://brightspace.cuny.edu/
+        target: _blank
 
 proxy: ~
