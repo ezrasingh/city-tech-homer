@@ -62,8 +62,6 @@
           @network-status-update="offline = $event"
         />
 
-        <GetStarted v-if="configurationNeeded" />
-
         <div v-if="!offline">
           <!-- Optional messages -->
           <Message :item="config.message" />
