@@ -10,6 +10,11 @@ export default defineConfig({
   build: {
     assetsDir: "resources",
   },
+  server: {
+    watch: {
+      ignored: ['/node_modules/'],
+    }
+  },
   plugins: [
     vue(),
     VitePWA({
@@ -17,9 +22,9 @@ export default defineConfig({
       useCredentials: true,
       manifestFilename: "assets/manifest.json",
       manifest: {
-        name: "Homer dashboard",
-        short_name: "Homer",
-        description: "Home Server Dashboard",
+        name: "City Tech Resource Dashboard",
+        short_name: "Resource Dashboard",
+        description: "Helpful links and resources for City Tech",
         theme_color: "#3367D6",
         start_url: "../",
         scope: "../",

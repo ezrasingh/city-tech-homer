@@ -1,13 +1,13 @@
 ---
 # Default configuration
 
-title: "City Tech Dashboard"
-subtitle: "Student ID: 23453523"
+title: "Resource Dashboard"
+subtitle: "City Tech"
 
 header: true
 footer: false
 
-columns: 2
+columns: 3
 connectivityCheck: true
 
 defaults:
@@ -32,6 +32,13 @@ links:
     target: _blank
 
 services:
+  - name: Help
+    icon: fas fa-code-branch
+    items:
+      - name: Student ID
+        type: "CopyToClipboard"
+        icon: fas fa-clipboard
+        clipboard: "23453523"
   - name: Student Life
     icon: fas fa-code-branch
     items:
@@ -39,7 +46,7 @@ services:
         icon: fas fa-graduation-cap
         subtitle: "Student info"
         tag: "resource"
-        keywords: "self hosted reddit"
+        keywords: ""
         url: https://cssa.cunyfirst.cuny.edu/
         target: _blank
 
