@@ -72,7 +72,7 @@ services:
         target: _blank
 
       - name: Bright Space
-        icon: fab fa-jenkins
+        icon: fas fa-book
         subtitle: Class Work
         tag: "academics"
         url: https://brightspace.cuny.edu/
