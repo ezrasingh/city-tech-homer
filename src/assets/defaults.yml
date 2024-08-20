@@ -39,6 +39,10 @@ services:
         type: "CopyToClipboard"
         icon: fas fa-clipboard
         clipboard: "23453523"
+      - name: Directions
+        icon: fas fa-compass
+        url: https://www.citytech.cuny.edu/about-us/directions.aspx
+        target: _blank
   - name: Student Life
     icon: fas fa-code-branch
     items:
