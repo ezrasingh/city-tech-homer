@@ -43,6 +43,7 @@ services:
         icon: fas fa-compass
         url: https://www.citytech.cuny.edu/about-us/directions.aspx
         target: _blank
+        
   - name: Student Life
     icon: fas fa-code-branch
     items:
@@ -56,9 +57,16 @@ services:
 
       - name: Open Lab
         icon: fas fa-user-group
-        subtitle: "Social network"
+        subtitle: Social network
         tag: "social"
         url: https://openlab.citytech.cuny.edu/
+        target: _blank
+
+      - name: ASAP
+        icon: fas fa-handshake-angle
+        subtitle: ASAP Resources
+        keywords: ""
+        url: https://openlab.citytech.cuny.edu/asap/
         target: _blank
 
   - name: Academics
@@ -75,6 +83,13 @@ services:
         icon: fas fa-book
         subtitle: Class Work
         tag: "academics"
+        url: https://brightspace.cuny.edu/
+        target: _blank
+
+      - name: Degree Works
+        icon: fas fa-list-check
+        subtitle: Track Progress
+        tag: "degree"
         url: https://brightspace.cuny.edu/
         target: _blank
 
