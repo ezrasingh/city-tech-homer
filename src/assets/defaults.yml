@@ -2,13 +2,13 @@
 # Default configuration
 
 title: "Resource Dashboard"
-subtitle: "City Tech"
+subtitle: "Ezra Singh"
 
 header: true
 footer: false
 
 columns: 3
-connectivityCheck: true
+connectivityCheck: false
 
 defaults:
   # columns, list
@@ -30,6 +30,10 @@ links:
     icon: fas fa-envelope
     url: https://outlook.office.com/mail/
     target: _blank
+  - name: One Drive
+    icon: fas fa-hard-drive
+    url: https://www.office.com/onedrive/
+    target: _blank
 
 services:
   - name: Help
@@ -43,7 +47,7 @@ services:
         icon: fas fa-compass
         url: https://www.citytech.cuny.edu/about-us/directions.aspx
         target: _blank
-        
+
   - name: Student Life
     icon: fas fa-code-branch
     items:
@@ -51,21 +55,21 @@ services:
         icon: fas fa-graduation-cap
         subtitle: "Student info"
         tag: "resource"
-        keywords: ""
+        keywords: "student"
         url: https://cssa.cunyfirst.cuny.edu/
         target: _blank
 
       - name: Open Lab
         icon: fas fa-user-group
         subtitle: Social network
-        tag: "social"
+        tag: "student social"
         url: https://openlab.citytech.cuny.edu/
         target: _blank
 
       - name: ASAP
         icon: fas fa-handshake-angle
         subtitle: ASAP Resources
-        keywords: ""
+        keywords: "student help"
         url: https://openlab.citytech.cuny.edu/asap/
         target: _blank
 
@@ -74,23 +78,46 @@ services:
     items:
       - name: Navigate 360
         icon: fas fa-school
-        subtitle: Class Notes
-        tag: "academics"
+        subtitle: Class Schedule & Resources
+        tag: "academics schedule"
         url: https://citytech-cuny.navigate.eab.com/app/
         target: _blank
 
       - name: Bright Space
         icon: fas fa-book
-        subtitle: Class Work
-        tag: "academics"
+        subtitle: Class Work & Content
+        tag: "academics homework quiz assignments class"
         url: https://brightspace.cuny.edu/
         target: _blank
 
       - name: Degree Works
         icon: fas fa-list-check
-        subtitle: Track Progress
-        tag: "degree"
+        subtitle: Track Graduation Progress
+        tag: "degree progress"
         url: https://brightspace.cuny.edu/
         target: _blank
 
+  - name: Latex Manuals
+    icon: fas fa-newspaper
+    items:
+      - name: Latex
+        icon: fas fa-pen-clip
+        subtitle: Reference Manual
+        tag: "latex"
+        url: https://texdoc.org/serve/latex2e.pdf/0
+        target: _blank
+      - name: TikZ
+        icon: fas fa-diagram-project
+        subtitle: Reference Manual
+        tag: "latex"
+        keywords: "diagram"
+        url: https://tikz.dev/
+        target: _blank
+      - name: CircuiTikZ
+        icon: fas fa-bolt
+        subtitle: Reference Manual
+        tag: "latex"
+        keywords: "circuit diagram"
+        url: https://circuitikz.github.io/circuitikz/circuitikzmanualgit.pdf
+        target: _blank
 proxy: ~
